@@ -1,29 +1,22 @@
 # 📌 산돌이 Repository Template  
 
-## 📂 개요  
-**(이 Repository가 담당하는 서비스의 간략한 설명을 작성하세요.)**  
-이 Repository는 **산돌이 프로젝트**를 위한 표준 템플릿입니다.
-모든 서비스는 **Docker 컨테이너로 실행**되며, 이후 **Docker Compose를 활용하여 통합 운영**됩니다.  
-프론트엔드 서비스(챗봇 서버, 웹 서비스 등)의 경우, 필요에 따라 **독립적인 `docker-compose` 환경에서 운영**될 수 있습니다.  
-일관된 개발 및 배포 환경을 유지하기 위해 이 템플릿을 사용을 권장하며, 템플릿의 구조 및 내용은 자유롭게 수정해 사용할 수 있습니다. 
+## 📂 개요 
+산돌이 카카오톡 챗봇 서버 Repository입니다.
 
 ---
 
 ## 📌 프로젝트 구조  
-- **(이 Repository에서 사용하는 개발 프레임워크 및 주요 기술 스택을 작성하세요.)**  
-  - 예시: `FastAPI`, `Node.js`, `Express`, `Discord.js`, `React` 등  
-- **(이 Repository가 담당하는 서비스의 역할을 간략히 설명하세요.)**  
-  - 예시: `카카오톡 챗봇`, `디스코드 챗봇`, `웹 프론트엔드`, `공지사항 크롤러 API` 등  
-- **(해당 서비스가 연동되는 외부 API 및 설정해야 할 항목이 있다면 명시하세요.)**  
-  - 예시: `카카오톡 Open Builder`, `디스코드 API`, `AWS S3`, `GCP Cloud Storage` 등  
+- FastAPI, SQLite, SQAlchemy, 
+- [카카오톡 Open Builder](https://chatbot.kakao.com/bot/67217ff5fb73245c1c65e60f)
 
 ---
 
 ## 📌 문서  
-- **(API 문서 링크를 삽입하세요.)**  
-  - 예시: `[API 문서 (Swagger)](링크)`, `[API 문서 (Notion)](링크)`  
-- **(이 Repository에서 제공하는 서비스 관련 문서를 추가하세요.)**  
-  - 예시: `챗봇 명령어 목록`, `웹 서비스 이용 가이드`, `Webhook 사용법` 등  
+이 서버의 문서는, KakaoOpenbuild와 서버의 Skill 및 파라미터 정보를 제공합니다.
+- [API 문서 (Notion)](링크)
+- [API 문서 (Swagger)](링크)
+- 참고 문서
+  - [파이썬 kakao-chatbot 패키지 문서](kakao-chatbot.readthedocs.io)
 
 ---
 
@@ -63,7 +56,7 @@ docker compose up -d --build
 ---
 
 ## 📌 문의  
-- **(디스코드 채널 링크를 삽입하세요)**    
+- [디스코드 카카오 챗봇 채널](https://discord.com/channels/1339452791071969331/1339456512363597875)
 
 ---
 🚀 **산돌이 프로젝트와 함께 효율적인 개발 환경을 만들어갑시다!**  
